@@ -1,1 +1,2 @@
 safe: true
+paginate: 10 // the number of post per page

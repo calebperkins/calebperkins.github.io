@@ -3,4 +3,30 @@ layout: default
 title: Caleb Perkins
 ---
 
-<p>This is the start of something beautiful.</p>
+{% for post in paginator.posts %}
+
+<article class="post">
+	<header>
+		<h1><a href="{{ post.url }}">{{ post.title }}</a></h1>
+		<time datetime="{{post.date | date: '%Y-%m-%d'}}">{{post.date | date:"%b %d"}}</time>
+	</header>
+	<div class="content">
+		{% if post.excerpt %}
+		<p>{{ post.excerpt }}</p>
+		{% else %}
+		{{ post.content }}
+		{% endif %}
+	</div>
+</article>
+
+{% endfor %}
+
+<!-- Pagination links -->
+<ul class="pager">
+	{% if paginator.previous_page %}
+	<li class="previous"><a href="{% if paginator.previous_page > 1 %}/page{{paginator.previous_page}}{% else %}/{% endif %}">← Older entries</a></li>
+	{% endif %}
+	{% if paginator.next_page %}
+	<li class="next"><a href="/page{{paginator.next_page}}">Newer entries →</a></li>
+	{% endif %}
+</ul>
