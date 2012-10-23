@@ -28,7 +28,7 @@ header[role="banner"] h1 {
 }
 
 header[role="banner"] h1 a {
-	color: white;
+	color: #fff;
 	text-decoration: none;
 }
 
@@ -80,4 +80,32 @@ footer[role="contentinfo"] {
 	margin: 3em auto 0;
 	padding: 0.75em 0;
 	width: 44em;
+}
+
+code {
+	font-family: Consolas, "Liberation Mono", Courier, monospace;
+	background: #F8F8F8;
+	color: #333;
+	border: 1px solid #ccc;
+	border-radius: 3px;
+	font-size: 13px;
+}
+
+pre {
+	padding: 1em;
+	white-space: pre;
+	display: block;
+	line-height: 19px;
+	color: #333;
+	background: #F8F8F8;
+	border: 1px solid #ccc;
+	border-radius: 3px;
+}
+
+pre > code {
+	border: none;
+}
+
+p {
+	margin: 0 0 1.5em;
 }
