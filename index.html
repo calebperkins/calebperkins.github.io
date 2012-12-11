@@ -13,6 +13,7 @@ title: Caleb Perkins
 	<div class="content">
 		{% if post.excerpt %}
 		<p>{{ post.excerpt }}</p>
+		<p><a href="{{ post.url }}">Read more&hellip;</a></p>
 		{% else %}
 		{{ post.content }}
 		{% endif %}
