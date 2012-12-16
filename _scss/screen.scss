@@ -27,7 +27,7 @@ h1 a:hover {
 
 // Header
 header[role="banner"] {
-	background: #444;
+	background: #444 url(/img/debut_dark.png) repeat;
 	padding: 1.5em 0;
 	margin: 0 0 3em;
 	position: relative;
@@ -37,6 +37,7 @@ header[role="banner"] {
 		font-size: 3em;
 		font-family: 'Kaushan Script', cursive;
 		line-height: 1;
+		text-shadow: 1px 1px 1px #888;
 
 		a {
 			color: #fff;
@@ -90,7 +91,7 @@ article {
 	}
 }
 
-
+// Footer
 footer[role="contentinfo"] {
 	border-top: 1px solid #333;
 	margin: 3em auto 0;

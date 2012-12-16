@@ -18,7 +18,7 @@ h1 a:hover {
   text-decoration: underline; }
 
 header[role="banner"] {
-  background: #444;
+  background: #444444 url(/img/debut_dark.png) repeat;
   padding: 1.5em 0;
   margin: 0 0 3em;
   position: relative;
@@ -26,7 +26,8 @@ header[role="banner"] {
   header[role="banner"] h1 {
     font-size: 3em;
     font-family: 'Kaushan Script', cursive;
-    line-height: 1; }
+    line-height: 1;
+    text-shadow: 1px 1px 1px #888; }
     header[role="banner"] h1 a {
       color: #fff;
       text-decoration: none; }
