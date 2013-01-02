@@ -1,6 +1,18 @@
 $red: #C00906;
 $content_width: 44em;
 
+@mixin respond-to($media) {
+	@if $media == handhelds {
+		@media only screen and (max-width: 320px) { @content; }
+	}
+	@else if $media == medium-screens {
+		@media only screen and (min-width: 321px) and (max-width: 1024px) { @content; }
+	}
+	@else if $media == wide-screens {
+		@media only screen and (min-width: 1024px) { @content; }
+	}
+}
+
 body {
 	background: white;
 	color: #333;
@@ -10,7 +22,7 @@ body {
 
 #content {
 	margin: 4.5em auto 0;
-	width: $content_width;
+	max-width: $content_width;
 }
 
 a:link, a:visited, a:active, a:hover {
@@ -54,7 +66,7 @@ header[role="banner"] {
 
 	div {
 		margin: 0 auto;
-		width: 32em;
+		max-width: 32em;
 	}
 }
 
@@ -63,31 +75,42 @@ h1, h2, h3, h4, h5, h6 {
 	font-weight: normal;
 }
 
+img {
+	@include respond-to(handhelds) { width: 100%; }
+}
+
 article {
-	margin-bottom: 2.25em;
+	margin: 0.5em 0.5em 2.25em 0.5em;
 	padding-bottom: 2.25em;
 	position: relative;
 
 	h1 {
 		font-size: 1.5em;
-		margin-bottom: 1em;
+
+		@include respond-to(wide-screens) {
+			margin-bottom: 1em;
+		}
 	}
 
 	header time {
-		border-top: 2px solid #ccc;
-		position: absolute;
-		left: -6em;
-		top: 0;
-		text-align: center;
-		width: 4em;
-
-		font-size: 1.3em;
 		font-family: 'Kaushan Script', cursive;
-		line-height: 31px;
 		display: block;
 		font-variant: small-caps;
 		text-transform: lowercase;
-		color: $red;
+		position: inherit;
+		line-height: 1em;
+
+		@include respond-to(wide-screens) {
+			position: absolute;
+			left: -6em;
+			top: 0;
+			text-align: center;
+			width: 4em;
+			color: $red;
+			font-size: 1.3em;
+			border-top: 2px solid #ccc;
+			line-height: 31px;
+		}
 	}
 }
 
@@ -96,7 +119,7 @@ footer[role="contentinfo"] {
 	border-top: 1px solid #333;
 	margin: 3em auto 0;
 	padding: 0.75em 0;
-	width: $content_width;
+	max-width: $content_width;
 }
 
 code, pre {
