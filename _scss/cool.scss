@@ -184,6 +184,17 @@ footer[role="contentinfo"] {
     }
 }
 
+#error404 {
+    text-align: center;
+
+    h1 {
+        font-family: 'Kaushan Script', cursive;
+        text-align: center;
+        @include adjust-font-size-to(5 * $base-font-size);
+        float: none;
+    }
+}
+
 // Tablet layout. Inherits from default.
 @media only screen and (min-width: 768px) and (max-width: 991px) {
 }
