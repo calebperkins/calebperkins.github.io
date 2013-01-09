@@ -1,0 +1,218 @@
+@import "zen";
+@import "compass";
+@import "compass/reset";
+
+// Vertical rhythm
+$base-font-size: 16px;
+$base-line-height: 24px;
+@include establish-baseline;
+
+// My config
+$text-color: #333;
+$link-color: #C00906;
+
+$zen-column-count: 7; // Set the total number of columns in the grid.
+$zen-gutter-width: $base-line-height;
+
+// General styles
+body {
+    background: #fff url(/img/gplaypattern.png) repeat;
+    color: $text-color;
+    font-family: Georgia, serif;
+    // @include grid-background;
+    @include zen-grid-container;
+}
+
+#content {
+    @include zen-clear();
+    @include zen-grid-item(5, 2);
+}
+
+a:link, a:visited, a:active, a:hover {
+    color: $link-color;
+}
+
+h1 a:link, h1 a:visited {
+    text-decoration: none;
+}
+
+h1 a:hover {
+    text-decoration: underline;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    color: #111;
+    font-weight: normal;
+}
+
+p {
+    &:first-child {
+      @include leader;
+    }
+    @include trailer;
+}
+
+strong {
+    font-weight: bold;
+}
+
+em {
+    font-style: italic;
+}
+
+// Code
+
+blockquote {
+    margin-left: 1em;
+    border-left: 0.5em solid #ccc;
+    padding-left: 0.5em;
+}
+
+ul {
+    list-style: disc inside none;
+}
+
+ol {
+    list-style: decimal inside none;
+}
+
+li {
+    display: list-item;
+}
+
+code, pre {
+    background: #F8F8F8;
+    color: #333;
+}
+
+code {
+    font-family: Consolas, "Liberation Mono", Courier, monospace;
+}
+
+pre {
+    white-space: pre;
+    display: block;
+    @include rhythm-borders;
+    border-color: #ccc;
+    border-radius: 7px;
+}
+
+pre code {
+    border: none;
+}
+
+header[role="banner"] {
+    background: #444 url(/img/debut_dark.png) repeat;
+    box-shadow: 0px 10px 1em #888;
+    @include zen-grid-item(7, 1);
+    @include trailer;
+
+    h1 {
+        font-family: 'Kaushan Script', cursive;
+        text-shadow: 1px 1px 1px #888;
+        @include adjust-font-size-to(3 * $base-font-size);
+        @include zen-grid-item(5, 2);
+
+        a {
+            color: #fff;
+            text-decoration: none;
+        }
+    }
+
+}
+
+article {
+    @include trailer;
+    @include rhythm-borders;
+    border-color: #ccc;
+    background: rgba(255, 255, 255, 0.8);
+    border-radius: 6px;
+
+    header {
+        h1 {
+            @include adjust-font-size-to(3/2 * $base-font-size);
+            float: left;
+        }
+
+        time {
+            color: #999;
+            display: block;
+            text-align: right;
+        }
+
+    }
+
+    h2 {
+        @include adjust-font-size-to(4/3 * $base-font-size);
+        color: $link-color;
+    }
+
+    h3 {
+        @include adjust-font-size-to(6/5 * $base-font-size);
+        color: $link-color;
+    }
+
+    section {
+        clear: left;
+    }
+
+}
+
+// Page footer
+footer[role="contentinfo"] {
+    @include zen-clear();
+    @include zen-grid-item(7, 1);
+    @include leading-border();
+    border-top-color: $text-color;
+    @include leader;
+
+    background: $link-color url(/img/red_geometric.png) repeat;
+    color: #fff;
+
+    @include adjust-font-size-to(4/5 * $base-font-size);
+
+    figure {
+        @include zen-grid-item(3, 3);
+        background-color: rgba(77, 0, 10, 0.6);
+        padding: rhythm(1, $base-font-size, $offset: 1px);
+        border-radius: 5px 5px 0 0;
+
+        img {
+            float: left;
+            margin-right: 1em;
+        }
+    }
+}
+
+// Tablet layout. Inherits from default.
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+}
+
+// Mobile layout. Inherits from default.
+@media only screen and (max-width: 767px) {
+    #content {
+        @include zen-grid-item(7, 1);
+    }
+
+    article header {
+        h1 {
+            float: none;
+        }
+
+        time {
+            text-align: left;
+        }
+    }
+
+    footer[role="contentinfo"] figure {
+        @include zen-grid-item(7, 1);
+    }
+
+    header[role="banner"] h1 {
+        @include zen-grid-item(7, 1);
+    }
+}
+
+// Landscape mobile layout. Inherits from mobile, default.
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+}
