@@ -10,9 +10,14 @@ $base-line-height: 24px;
 // My config
 $text-color: #333;
 $link-color: #C00906;
+$fancy-font: 'Kaushan Script', cursive;
 
 $zen-column-count: 7; // Set the total number of columns in the grid.
 $zen-gutter-width: $base-line-height;
+
+@mixin scale-font($multiple) {
+    @include adjust-font-size-to($multiple * $base-font-size);
+}
 
 // General styles
 body {
@@ -110,7 +115,7 @@ header[role="banner"] {
     h1 {
         font-family: 'Kaushan Script', cursive;
         text-shadow: 1px 1px 1px #888;
-        @include adjust-font-size-to(3 * $base-font-size);
+        @include scale-font(3);
         @include zen-grid-item(5, 2);
 
         a {
@@ -130,7 +135,7 @@ article {
 
     header {
         h1 {
-            @include adjust-font-size-to(3/2 * $base-font-size);
+            @include scale-font(3/2);
             float: left;
         }
 
@@ -143,12 +148,12 @@ article {
     }
 
     h2 {
-        @include adjust-font-size-to(4/3 * $base-font-size);
+        @include scale-font(4/3);
         color: $link-color;
     }
 
     h3 {
-        @include adjust-font-size-to(6/5 * $base-font-size);
+        @include scale-font(6/5);
         color: $link-color;
     }
 
@@ -169,7 +174,7 @@ footer[role="contentinfo"] {
     background: $link-color url(/img/red_geometric.png) repeat;
     color: #fff;
 
-    @include adjust-font-size-to(4/5 * $base-font-size);
+    @include scale-font(4/5);
 
     figure {
         @include zen-grid-item(3, 3);
@@ -188,9 +193,9 @@ footer[role="contentinfo"] {
     text-align: center;
 
     h1 {
-        font-family: 'Kaushan Script', cursive;
+        font-family: $fancy-font;
         text-align: center;
-        @include adjust-font-size-to(5 * $base-font-size);
+        @include scale-font(5);
         float: none;
     }
 }
