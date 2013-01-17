@@ -10,7 +10,10 @@ $base-line-height: 24px;
 // My config
 $text-color: #333;
 $link-color: #C00906;
+
+$main-font: Georgia, serif;
 $fancy-font: 'Kaushan Script', cursive;
+$monospace-font: Consolas, "Liberation Mono", Courier, monospace;
 
 $zen-column-count: 7; // Set the total number of columns in the grid.
 $zen-gutter-width: $base-line-height;
@@ -23,7 +26,7 @@ $zen-gutter-width: $base-line-height;
 body {
     background: #fff url(/img/gplaypattern.png) repeat;
     color: $text-color;
-    font-family: Georgia, serif;
+    font-family: $main-font;
     // @include grid-background;
     @include zen-grid-container;
 }
@@ -91,7 +94,7 @@ code, pre {
 }
 
 code {
-    font-family: Consolas, "Liberation Mono", Courier, monospace;
+    font-family: $monospace-font;
 }
 
 pre {
@@ -113,7 +116,7 @@ header[role="banner"] {
     @include trailer;
 
     h1 {
-        font-family: 'Kaushan Script', cursive;
+        font-family: $fancy-font;
         text-shadow: 1px 1px 1px #888;
         @include scale-font(3);
         @include zen-grid-item(5, 2);
