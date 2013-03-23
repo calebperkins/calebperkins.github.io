@@ -1,1 +1,395 @@
-html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,address,big,cite,code,del,dfn,em,img,ins,kbd,q,s,samp,small,strike,strong,sub,sup,tt,var,b,u,i,center,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,article,aside,canvas,details,embed,figure,figcaption,footer,header,hgroup,menu,nav,output,ruby,section,summary,time,mark,audio,video{margin:0;padding:0;border:0;font:inherit;font-size:100%;vertical-align:baseline}html{line-height:1}ol,ul{list-style:none}table{border-collapse:collapse;border-spacing:0}caption,th,td{text-align:left;font-weight:normal;vertical-align:middle}q,blockquote{quotes:none}q:before,q:after,blockquote:before,blockquote:after{content:"";content:none}a img{border:none}article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section,summary{display:block}* html{font-size:100%}html{font-size:16px;line-height:1.5em}body{background:#fff url(/img/gplaypattern.png) repeat;color:#333;font-family:Georgia,serif}body:before,body:after{content:"";display:table}body:after{clear:both}#content{clear:left;float:left;width:71.42857%;margin-left:14.28571%;margin-right:-85.71429%;padding-left:12px;padding-right:12px;-moz-box-sizing:border-box;-webkit-box-sizing:border-box;-ms-box-sizing:border-box;box-sizing:border-box;word-wrap:break-word}a:link,a:visited,a:active,a:hover{color:#c00906}h1 a:link,h1 a:visited{text-decoration:none}h1 a:hover{text-decoration:underline}h1,h2,h3,h4,h5,h6{color:#111;font-weight:normal}p{margin-bottom:1.5em}p:first-child{margin-top:1.5em}strong{font-weight:bold}em{font-style:italic}blockquote{margin-left:1em;border-left:0.5em solid #ccc;padding-left:0.5em}ul{list-style:disc inside none}ol{list-style:decimal inside none}li{display:list-item}code,pre{background:#F8F8F8;color:#333}code{font-family:Consolas,"Liberation Mono",Courier,monospace}pre{white-space:pre;display:block;border-style:solid;border-width:0.0625em;padding:1.4375em;border-color:#ccc;border-radius:7px}pre code{border:none}header[role="banner"]{background:#444 url(/img/debut_dark.png) repeat;box-shadow:0px 10px 1em #888;float:left;width:100%;margin-left:0%;margin-right:-100%;padding-left:12px;padding-right:12px;-moz-box-sizing:border-box;-webkit-box-sizing:border-box;-ms-box-sizing:border-box;box-sizing:border-box;word-wrap:break-word;margin-bottom:1.5em}header[role="banner"] h1{font-family:"Kaushan Script",cursive;text-shadow:1px 1px 1px #888;font-size:3em;line-height:1.5em;float:left;width:71.42857%;margin-left:14.28571%;margin-right:-85.71429%;padding-left:12px;padding-right:12px;-moz-box-sizing:border-box;-webkit-box-sizing:border-box;-ms-box-sizing:border-box;box-sizing:border-box;word-wrap:break-word}header[role="banner"] h1 a{color:#fff;text-decoration:none}article{margin-bottom:1.5em;border-style:solid;border-width:0.0625em;padding:1.4375em;border-color:#ccc;background:rgba(255,255,255,0.8);border-radius:6px}article header h1{font-size:1.5em;line-height:2em;float:left}article header time{color:#999;display:block;text-align:right}article h2{font-size:1.33333em;line-height:2.25em;color:#c00906}article h3{font-size:1.2em;line-height:1.25em;color:#c00906}article section{clear:left}footer[role="contentinfo"]{clear:left;float:left;width:100%;margin-left:0%;margin-right:-100%;padding-left:12px;padding-right:12px;-moz-box-sizing:border-box;-webkit-box-sizing:border-box;-ms-box-sizing:border-box;box-sizing:border-box;word-wrap:break-word;border-top-style:solid;border-top-width:0.0625em;padding-top:1.4375em;border-top-color:#333;margin-top:1.5em;background:#c00906 url(/img/red_geometric.png) repeat;color:#fff;font-size:0.8em;line-height:1.875em}footer[role="contentinfo"] figure{float:left;width:42.85714%;margin-left:28.57143%;margin-right:-71.42857%;padding-left:12px;padding-right:12px;-moz-box-sizing:border-box;-webkit-box-sizing:border-box;-ms-box-sizing:border-box;box-sizing:border-box;word-wrap:break-word;background-color:rgba(77,0,10,0.6);padding:1.4375em;border-radius:5px 5px 0 0}footer[role="contentinfo"] figure img{float:left;margin-right:1em}#error404{text-align:center}#error404 h1{font-family:"Kaushan Script",cursive;text-align:center;font-size:5em;line-height:1.2em;float:none}@media only screen and (max-width: 767px){#content{float:left;width:100%;margin-left:0%;margin-right:-100%;padding-left:12px;padding-right:12px;-moz-box-sizing:border-box;-webkit-box-sizing:border-box;-ms-box-sizing:border-box;box-sizing:border-box;word-wrap:break-word}article header h1{float:none}article header time{text-align:left}footer[role="contentinfo"] figure{float:left;width:100%;margin-left:0%;margin-right:-100%;padding-left:12px;padding-right:12px;-moz-box-sizing:border-box;-webkit-box-sizing:border-box;-ms-box-sizing:border-box;box-sizing:border-box;word-wrap:break-word}header[role="banner"] h1{float:left;width:100%;margin-left:0%;margin-right:-100%;padding-left:12px;padding-right:12px;-moz-box-sizing:border-box;-webkit-box-sizing:border-box;-ms-box-sizing:border-box;box-sizing:border-box;word-wrap:break-word}}
+/* line 17, ../../../.rbenv/versions/1.9.3-p327/lib/ruby/gems/1.9.1/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font: inherit;
+  font-size: 100%;
+  vertical-align: baseline;
+}
+
+/* line 22, ../../../.rbenv/versions/1.9.3-p327/lib/ruby/gems/1.9.1/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+html {
+  line-height: 1;
+}
+
+/* line 24, ../../../.rbenv/versions/1.9.3-p327/lib/ruby/gems/1.9.1/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+ol, ul {
+  list-style: none;
+}
+
+/* line 26, ../../../.rbenv/versions/1.9.3-p327/lib/ruby/gems/1.9.1/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* line 28, ../../../.rbenv/versions/1.9.3-p327/lib/ruby/gems/1.9.1/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+caption, th, td {
+  text-align: left;
+  font-weight: normal;
+  vertical-align: middle;
+}
+
+/* line 30, ../../../.rbenv/versions/1.9.3-p327/lib/ruby/gems/1.9.1/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+q, blockquote {
+  quotes: none;
+}
+/* line 103, ../../../.rbenv/versions/1.9.3-p327/lib/ruby/gems/1.9.1/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+q:before, q:after, blockquote:before, blockquote:after {
+  content: "";
+  content: none;
+}
+
+/* line 32, ../../../.rbenv/versions/1.9.3-p327/lib/ruby/gems/1.9.1/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+a img {
+  border: none;
+}
+
+/* line 116, ../../../.rbenv/versions/1.9.3-p327/lib/ruby/gems/1.9.1/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section, summary {
+  display: block;
+}
+
+/* line 61, ../../../.rbenv/versions/1.9.3-p327/lib/ruby/gems/1.9.1/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/typography/_vertical_rhythm.scss */
+* html {
+  font-size: 100%;
+}
+
+/* line 64, ../../../.rbenv/versions/1.9.3-p327/lib/ruby/gems/1.9.1/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/typography/_vertical_rhythm.scss */
+html {
+  font-size: 16px;
+  line-height: 1.5em;
+}
+
+/* line 29, ../_scss/cool.scss */
+body {
+  background: white url(/img/gplaypattern.png) repeat;
+  color: #333333;
+  font-family: Georgia, serif;
+}
+/* line 52, ../../../.rbenv/versions/1.9.3-p327/lib/ruby/gems/1.9.1/gems/zen-grids-1.2/stylesheets/zen/_grids.scss */
+body:before, body:after {
+  content: "";
+  display: table;
+}
+/* line 56, ../../../.rbenv/versions/1.9.3-p327/lib/ruby/gems/1.9.1/gems/zen-grids-1.2/stylesheets/zen/_grids.scss */
+body:after {
+  clear: both;
+}
+
+/* line 37, ../_scss/cool.scss */
+#content {
+  clear: left;
+  float: left;
+  width: 71.42857%;
+  margin-left: 14.28571%;
+  margin-right: -85.71429%;
+  padding-left: 12px;
+  padding-right: 12px;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -ms-box-sizing: border-box;
+  box-sizing: border-box;
+  word-wrap: break-word;
+}
+
+/* line 42, ../_scss/cool.scss */
+a:link, a:visited, a:active, a:hover {
+  color: #c00906;
+}
+
+/* line 46, ../_scss/cool.scss */
+h1 a:link, h1 a:visited {
+  text-decoration: none;
+}
+
+/* line 50, ../_scss/cool.scss */
+h1 a:hover {
+  text-decoration: underline;
+}
+
+/* line 54, ../_scss/cool.scss */
+h1, h2, h3, h4, h5, h6 {
+  color: #111;
+  font-weight: normal;
+}
+
+/* line 59, ../_scss/cool.scss */
+p {
+  margin-bottom: 1.5em;
+  max-width: 35em;
+}
+/* line 60, ../_scss/cool.scss */
+p:first-child {
+  margin-top: 1.5em;
+}
+
+/* line 67, ../_scss/cool.scss */
+strong {
+  font-weight: bold;
+}
+
+/* line 71, ../_scss/cool.scss */
+em {
+  font-style: italic;
+}
+
+/* line 77, ../_scss/cool.scss */
+blockquote {
+  margin-left: 1em;
+  border-left: 0.5em solid #cccccc;
+  padding-left: 0.5em;
+}
+
+/* line 83, ../_scss/cool.scss */
+ul {
+  list-style: disc inside none;
+}
+
+/* line 87, ../_scss/cool.scss */
+ol {
+  list-style: decimal inside none;
+}
+
+/* line 91, ../_scss/cool.scss */
+li {
+  display: list-item;
+}
+
+/* line 95, ../_scss/cool.scss */
+code, pre {
+  background: #F8F8F8;
+  color: #333;
+}
+
+/* line 100, ../_scss/cool.scss */
+code {
+  font-family: Consolas, "Liberation Mono", Courier, monospace;
+}
+
+/* line 104, ../_scss/cool.scss */
+pre {
+  white-space: pre;
+  display: block;
+  border-style: solid;
+  border-width: 0.0625em;
+  padding: 1.4375em;
+  border-color: #ccc;
+  border-radius: 7px;
+}
+
+/* line 112, ../_scss/cool.scss */
+pre code {
+  border: none;
+}
+
+/* line 116, ../_scss/cool.scss */
+header[role="banner"] {
+  background: #444444 url(/img/debut_dark.png) repeat;
+  box-shadow: 0px 10px 1em #888888;
+  float: left;
+  width: 100%;
+  margin-left: 0%;
+  margin-right: -100%;
+  padding-left: 12px;
+  padding-right: 12px;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -ms-box-sizing: border-box;
+  box-sizing: border-box;
+  word-wrap: break-word;
+  margin-bottom: 1.5em;
+  border-radius: 0 0 220px 220px/0 0 15px 15px;
+}
+/* line 123, ../_scss/cool.scss */
+header[role="banner"] h1 {
+  font-family: "Kaushan Script", cursive;
+  text-shadow: 1px 1px 1px #888888;
+  font-size: 3em;
+  line-height: 1.5em;
+  float: left;
+  width: 71.42857%;
+  margin-left: 14.28571%;
+  margin-right: -85.71429%;
+  padding-left: 12px;
+  padding-right: 12px;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -ms-box-sizing: border-box;
+  box-sizing: border-box;
+  word-wrap: break-word;
+}
+/* line 129, ../_scss/cool.scss */
+header[role="banner"] h1 a {
+  color: #fff;
+  text-decoration: none;
+}
+
+/* line 137, ../_scss/cool.scss */
+article {
+  margin-bottom: 1.5em;
+  border-style: solid;
+  border-width: 0.0625em;
+  padding: 1.4375em;
+  border-color: #ccc;
+  background: rgba(255, 255, 255, 0.8);
+  border-radius: 6px;
+}
+/* line 145, ../_scss/cool.scss */
+article header h1 {
+  font-size: 1.5em;
+  line-height: 2em;
+  float: left;
+}
+/* line 150, ../_scss/cool.scss */
+article header time {
+  color: #999;
+  display: block;
+  text-align: right;
+}
+/* line 158, ../_scss/cool.scss */
+article h2 {
+  font-size: 1.33333em;
+  line-height: 2.25em;
+  color: #c00906;
+}
+/* line 163, ../_scss/cool.scss */
+article h3 {
+  font-size: 1.2em;
+  line-height: 1.25em;
+  color: #c00906;
+}
+/* line 168, ../_scss/cool.scss */
+article section {
+  clear: left;
+}
+
+/* line 175, ../_scss/cool.scss */
+footer[role="contentinfo"] {
+  clear: left;
+  float: left;
+  width: 100%;
+  margin-left: 0%;
+  margin-right: -100%;
+  padding-left: 12px;
+  padding-right: 12px;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -ms-box-sizing: border-box;
+  box-sizing: border-box;
+  word-wrap: break-word;
+  border-top-style: solid;
+  border-top-width: 0.0625em;
+  padding-top: 1.4375em;
+  border-top-color: #333333;
+  margin-top: 1.5em;
+  background: #c00906 url(/img/red_geometric.png) repeat;
+  color: #fff;
+  border-radius: 220px 220px 0 0/15px 15px 0px 0px;
+  font-size: 0.8em;
+  line-height: 1.875em;
+}
+/* line 189, ../_scss/cool.scss */
+footer[role="contentinfo"] figure {
+  float: left;
+  width: 42.85714%;
+  margin-left: 28.57143%;
+  margin-right: -71.42857%;
+  padding-left: 12px;
+  padding-right: 12px;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -ms-box-sizing: border-box;
+  box-sizing: border-box;
+  word-wrap: break-word;
+  background-color: rgba(77, 0, 10, 0.6);
+  padding: 1.4375em;
+  border-radius: 5px 5px 0 0;
+}
+/* line 195, ../_scss/cool.scss */
+footer[role="contentinfo"] figure img {
+  float: left;
+  margin-right: 1em;
+}
+
+/* line 202, ../_scss/cool.scss */
+#error404 {
+  text-align: center;
+}
+/* line 205, ../_scss/cool.scss */
+#error404 h1 {
+  font-family: "Kaushan Script", cursive;
+  text-align: center;
+  font-size: 5em;
+  line-height: 1.2em;
+  float: none;
+}
+
+@media only screen and (max-width: 767px) {
+  /* line 219, ../_scss/cool.scss */
+  #content {
+    float: left;
+    width: 100%;
+    margin-left: 0%;
+    margin-right: -100%;
+    padding-left: 12px;
+    padding-right: 12px;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    box-sizing: border-box;
+    word-wrap: break-word;
+  }
+
+  /* line 224, ../_scss/cool.scss */
+  article header h1 {
+    float: none;
+  }
+  /* line 228, ../_scss/cool.scss */
+  article header time {
+    text-align: left;
+  }
+
+  /* line 233, ../_scss/cool.scss */
+  footer[role="contentinfo"] figure {
+    float: left;
+    width: 100%;
+    margin-left: 0%;
+    margin-right: -100%;
+    padding-left: 12px;
+    padding-right: 12px;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    box-sizing: border-box;
+    word-wrap: break-word;
+  }
+
+  /* line 237, ../_scss/cool.scss */
+  header[role="banner"] h1 {
+    float: left;
+    width: 100%;
+    margin-left: 0%;
+    margin-right: -100%;
+    padding-left: 12px;
+    padding-right: 12px;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    box-sizing: border-box;
+    word-wrap: break-word;
+  }
+}
