@@ -2,7 +2,7 @@
 <html lang="en-us">
 
 <head>
-    <title>Caleb Perkins</title>
+    <title>{{ page.title }}</title>
     <meta http-equiv="content-type" content="text/html; charset=utf-8" />
     <meta name="author" content="Caleb Perkins" />
     <meta name="viewport" content="initial-scale=1, width=device-width" />
@@ -23,13 +23,13 @@
             <h1><a href="/">Caleb Perkins</a></h1>
         </header>
         <div id="content" role="main">
-            <figure>
-                <img src="/img/cropped.jpg" height="200" width="200">
-                <figcaption><strong>Caleb Perkins</strong> is a graduate student at <a href="http://www.cornell.edu/">Cornell University</a> studying Computer Science. While not programming, he enjoys listening to metal, playing guitar, hiking, and drinking Vanilla Coke. He grew up in South Florida alongside five cats. Once, in gym class, he got hit in the ribs by a shot put.</figcaption>
-            </figure>
+            {{ content }}
         </div>
         <footer role="contentinfo">
-            <p>:D</p>
+            <figure>
+                <img src="/img/cropped.jpg" height="200" width="200">
+                <figcaption><strong>Caleb Perkins</strong> is a graduate student at <a href="http://www.cornell.edu/">Cornell University</a> studying Computer Science. While not programming, he enjoys listening to metal, playing guitar, hiking, and drinking bubble tea. He grew up in South Florida alongside five cats. Once he got hit in the ribs by a shot put.</figcaption>
+            </figure>
         </footer>
     </div>
 </body>
