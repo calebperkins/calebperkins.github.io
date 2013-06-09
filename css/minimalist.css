@@ -87,32 +87,42 @@ a:link, a:visited, a:active, a:hover {
 }
 
 /* line 30, ../_scss/minimalist.scss */
+h1 a:link, h1 a:visited {
+  text-decoration: none;
+}
+
+/* line 34, ../_scss/minimalist.scss */
+h1 a:hover {
+  text-decoration: underline;
+}
+
+/* line 38, ../_scss/minimalist.scss */
 p {
   margin-bottom: 1.5em;
   max-width: 35em;
 }
-/* line 31, ../_scss/minimalist.scss */
+/* line 39, ../_scss/minimalist.scss */
 p:first-child {
   margin-top: 1.5em;
 }
 
-/* line 38, ../_scss/minimalist.scss */
+/* line 46, ../_scss/minimalist.scss */
 strong {
   font-weight: bold;
 }
 
-/* line 42, ../_scss/minimalist.scss */
+/* line 50, ../_scss/minimalist.scss */
 em {
   font-style: italic;
 }
 
-/* line 46, ../_scss/minimalist.scss */
+/* line 54, ../_scss/minimalist.scss */
 #container {
   max-width: 35em;
   margin: 0 auto;
 }
 
-/* line 51, ../_scss/minimalist.scss */
+/* line 59, ../_scss/minimalist.scss */
 header[role="banner"] {
   margin-bottom: 1.5em;
   border-bottom-style: solid;
@@ -120,23 +130,34 @@ header[role="banner"] {
   padding-bottom: 1.4375em;
   border-bottom: 5px solid #cccccc;
 }
-/* line 56, ../_scss/minimalist.scss */
+/* line 64, ../_scss/minimalist.scss */
 header[role="banner"] h1 {
   font-size: 4em;
   line-height: 1.125em;
   font-family: "Overlock", cursive;
 }
-/* line 60, ../_scss/minimalist.scss */
+/* line 68, ../_scss/minimalist.scss */
 header[role="banner"] h1 a {
   text-decoration: none;
 }
 
-/* line 66, ../_scss/minimalist.scss */
-#content {
+/* line 74, ../_scss/minimalist.scss */
+article {
   margin-bottom: 1.5em;
 }
+/* line 77, ../_scss/minimalist.scss */
+article h1 {
+  font-size: 1.5em;
+  line-height: 2em;
+}
+/* line 81, ../_scss/minimalist.scss */
+article h2 {
+  font-size: 1.33333em;
+  line-height: 2.25em;
+  color: #c00906;
+}
 
-/* line 70, ../_scss/minimalist.scss */
+/* line 87, ../_scss/minimalist.scss */
 footer[role="contentinfo"] {
   border-top-style: solid;
   border-top-width: 0.0625em;
