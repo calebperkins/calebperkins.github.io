@@ -97,32 +97,27 @@ h1 a:hover {
 }
 
 /* line 38, ../_scss/minimalist.scss */
-p {
-  margin-bottom: 1.5em;
-  max-width: 35em;
-}
-/* line 39, ../_scss/minimalist.scss */
-p:first-child {
-  margin-top: 1.5em;
-}
-
-/* line 46, ../_scss/minimalist.scss */
 strong {
   font-weight: bold;
 }
 
-/* line 50, ../_scss/minimalist.scss */
+/* line 42, ../_scss/minimalist.scss */
 em {
   font-style: italic;
 }
 
-/* line 54, ../_scss/minimalist.scss */
+/* line 46, ../_scss/minimalist.scss */
+acronym {
+  border-bottom: 1px dotted;
+}
+
+/* line 50, ../_scss/minimalist.scss */
 #container {
   max-width: 35em;
   margin: 0 auto;
 }
 
-/* line 59, ../_scss/minimalist.scss */
+/* line 55, ../_scss/minimalist.scss */
 header[role="banner"] {
   margin-bottom: 1.5em;
   border-bottom-style: solid;
@@ -130,38 +125,61 @@ header[role="banner"] {
   padding-bottom: 1.4375em;
   border-bottom: 5px solid #cccccc;
 }
-/* line 64, ../_scss/minimalist.scss */
+/* line 60, ../_scss/minimalist.scss */
 header[role="banner"] h1 {
   font-size: 4em;
   line-height: 1.125em;
   font-family: "Overlock", cursive;
 }
-/* line 68, ../_scss/minimalist.scss */
+/* line 64, ../_scss/minimalist.scss */
 header[role="banner"] h1 a {
   text-decoration: none;
 }
 
-/* line 74, ../_scss/minimalist.scss */
+/* line 70, ../_scss/minimalist.scss */
 article {
   margin-bottom: 1.5em;
 }
-/* line 77, ../_scss/minimalist.scss */
+/* line 73, ../_scss/minimalist.scss */
 article h1 {
   font-size: 1.5em;
   line-height: 2em;
 }
-/* line 81, ../_scss/minimalist.scss */
+/* line 77, ../_scss/minimalist.scss */
 article h2 {
   font-size: 1.33333em;
   line-height: 2.25em;
   color: #c00906;
 }
-
+/* line 82, ../_scss/minimalist.scss */
+article section {
+  margin-top: 1.5em;
+  margin-bottom: 1.5em;
+}
 /* line 87, ../_scss/minimalist.scss */
+article p {
+  margin-bottom: 1.5em;
+  max-width: 35em;
+}
+/* line 88, ../_scss/minimalist.scss */
+article p:first-child {
+  margin-top: 1.5em;
+}
+/* line 95, ../_scss/minimalist.scss */
+article img, article object, article video {
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  margin-top: 1.5em;
+  margin-bottom: 1.5em;
+}
+
+/* line 104, ../_scss/minimalist.scss */
 footer[role="contentinfo"] {
   border-top-style: solid;
   border-top-width: 0.0625em;
   padding-top: 1.4375em;
   clear: both;
   border-top: 5px solid #cccccc;
+  margin-bottom: 1.5em;
 }

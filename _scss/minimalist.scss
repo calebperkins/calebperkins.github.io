@@ -35,20 +35,16 @@ h1 a:hover {
     text-decoration: underline;
 }
 
-p {
-    &:first-child {
-      @include leader;
-    }
-    @include trailer;
-    max-width: $content-width;
-}
-
 strong {
     font-weight: bold;
 }
 
 em {
     font-style: italic;
+}
+
+acronym {
+    border-bottom: 1px dotted;
 }
 
 #container {
@@ -82,10 +78,32 @@ article {
         @include scale-font(4/3);
         color: $link-color;
     }
+
+    section {
+        @include leader;
+        @include trailer;
+    }
+
+    p {
+        &:first-child {
+            @include leader;
+        }
+        @include trailer;
+        max-width: $content-width;
+    }
+
+    img, object, video {
+        margin-left: auto;
+        margin-right: auto;
+        display: block;
+        @include leader;
+        @include trailer;
+    }
 }
 
 footer[role="contentinfo"] {
     @include leading-border();
     clear: both;
     border-top: 5px solid #ccc;
+    @include trailer;
 }
