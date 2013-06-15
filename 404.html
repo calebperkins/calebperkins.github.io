@@ -3,4 +3,10 @@ layout: basic
 title: Not found :(
 ---
 
-<p>That page was not found. Maybe you can find what you are looking for by going <a href="/">here</a>...</p>
+<p>That page was not found. You will be redirected to the homepage momentarily.</p>
+
+<script type="text/javascript">
+    setTimeout(function () {
+        window.location.replace("/");
+    }, 3000);
+</script>
