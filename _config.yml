@@ -3,3 +3,4 @@ auto: true
 paginate: 10 // the number of post per page
 permalink: /posts/:title
 pygments: true
+exclude: README.md, Procfile, config.rb
