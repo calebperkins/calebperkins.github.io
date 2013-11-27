@@ -2,6 +2,7 @@
   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
   xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
   xmlns:foaf="http://xmlns.com/foaf/0.1/"
+  xmlns:wot="http://xmlns.com/wot/0.1/"
   xmlns:admin="http://webns.net/mvcb/">
   <foaf:PersonalProfileDocument rdf:about="">
       <foaf:maker rdf:resource="#me"/>
@@ -16,5 +17,11 @@
     <foaf:mbox_sha1sum>548d8440ab04f2597f635806d86536867b0d5544</foaf:mbox_sha1sum>
     <foaf:homepage rdf:resource="http://www.calebperkins.com"/>
     <foaf:depiction rdf:resource="http://www.gravatar.com/avatar/21d07a6591739bd320b003e9973df95c"/>
+    <wot:hasKey>
+      <wot:PubKey>
+        <wot:fingerprint>94C0 0926 2DA5 5DBA B703 BC58 166F C23C 1D2D 1DD8</wot:fingerprint>
+        <wot:hex_id>1D2D1DD8</wot:hex_id>
+      </wot:PubKey>
+    </wot:hasKey>
     <foaf:schoolHomepage rdf:resource="https://www.cornell.edu"/></foaf:Person>
 </rdf:RDF>
