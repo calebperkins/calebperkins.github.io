@@ -5,12 +5,10 @@ require 'zen-grids'
 # live server. Development mode will retain comments and spacing from the
 # original Sass source and adds line numbering comments for easier debugging.
 # environment = :production
-environment = :development
+environment = :production
 
 # In development, we can turn on the FireSass-compatible debug_info.
 firesass = false
-# firesass = true
-
 
 # Location of the your project's resources.
 css_dir         = "css"

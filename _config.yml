@@ -1,8 +1,11 @@
 safe: true
 paginate: 10
 permalink: /posts/:title
-pygments: true
+highlighter: pygments
 exclude:
   - README.md
   - Procfile
   - config.rb
+  - Gemfile
+  - Gemfile.lock
+  - CNAME
