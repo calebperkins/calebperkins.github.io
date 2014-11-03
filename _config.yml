@@ -1,11 +1,12 @@
-safe: true
-paginate: 10
-permalink: /posts/:title
-highlighter: pygments
-exclude:
-  - README.md
-  - Procfile
-  - config.rb
-  - Gemfile
-  - Gemfile.lock
-  - CNAME
+# Site settings
+title: Caleb Perkins
+email: blankrecipes@icloud.com
+description: > # this means to ignore newlines until "baseurl:"
+  The homepage of Seattle-based software developer Caleb Perkins.
+baseurl: "" # the subpath of your site, e.g. /blog/
+url: "http://www.calebperkins.com" # the base hostname & protocol for your site
+twitter_username: notollbooth
+github_username:  calebperkins
+
+# Build settings
+markdown: kramdown
