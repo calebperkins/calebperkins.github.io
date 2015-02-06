@@ -5,8 +5,11 @@ layout: default
 <div class="home">
 
   <h1 class="page-heading">Posts</h1>
-
+  {% if site.posts == empty %}
+  <p>Nothing yet...</p>
+  {% endif %}
   <ul class="post-list">
+
     {% for post in site.posts %}
       <li>
         <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
