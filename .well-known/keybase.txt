@@ -1,0 +1,68 @@
+==================================================================
+https://keybase.io/calebperkins
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of http://calebperkins.com
+  * I am calebperkins (https://keybase.io/calebperkins) on keybase.
+  * I have a public key with fingerprint 92F0 F78B E1A1 0474 D7B5  B6AF 96AF D41F 6F9D BC2D
+
+To do so, I am signing this object:
+
+{
+    "body": {
+        "key": {
+            "eldest_kid": "010158c5cc8d01ee9744b64d7c9ac8b45e551215cb1df87006c772ff5118005ee2c00a",
+            "fingerprint": "92f0f78be1a10474d7b5b6af96afd41f6f9dbc2d",
+            "host": "keybase.io",
+            "key_id": "96afd41f6f9dbc2d",
+            "kid": "010158c5cc8d01ee9744b64d7c9ac8b45e551215cb1df87006c772ff5118005ee2c00a",
+            "uid": "7786f3e6edfc484353f29dfd4f588a19",
+            "username": "calebperkins"
+        },
+        "service": {
+            "hostname": "calebperkins.com",
+            "protocol": "http:"
+        },
+        "type": "web_service_binding",
+        "version": 1
+    },
+    "ctime": 1481063477,
+    "expire_in": 157680000,
+    "prev": "53904624be0bcafc72bf149a2adbc9d429f6e9c8e1d73df7dbd59d6b33f4a8e1",
+    "seqno": 7,
+    "tag": "signature"
+}
+
+which yields the signature:
+
+-----BEGIN PGP MESSAGE-----
+Version: Keybase OpenPGP v2.0.58
+Comment: https://keybase.io/crypto
+
+yMIgAnicrZJbSBRRGMdXyzKhCK2gG8QYQWQyZ2bOnJktMsi0hyARhIqtZc5tnXZ3
+ZpuZ1cI2ou0iBYEYkWQRYZEXeoqCLlgmdqPMHsqsyJ4kepCiooeKzki99djD4XC+
+7///fRfO4OxpkZKC8SXVi6zVmf6Cx3fPZSNba9fCFgm7dK8UbZGSbOpiKcr8IJ60
+qRSVZCADaBBIiEFlwJiJNA3rGkXEtIiBNcggBAqABAPKDSTLOkFI4RwCYMgyZEwh
+smxJFRK3nQTzMp7tBAJrKlzmyMAMWEDWkOBhiHWLm+JQDXCdmxQThQpjo+uHDtEc
+tnxWabsiJh7xqfb+of/PfWencAgZOleZzignmqGpUOWKSUVpDg3DAmYo9JnnWGkm
+1MRKMZxhXtJ2fClXIYlMk01YuNxwmn+oKombFoyM5wYucVMi2xgEmWhoDvZmQnUz
+w/E/nDi2HSrWKQxNzPNt15GiQChJYIdgoBlA1lUNoQqJ7cnYHovboQIiXYwmy2EZ
+1iSQUDVlTVc0zGRMLE6QgjnQTEuxxC5Nqikm15lJDAYoUilHFFNoUh2rKtcsEZXC
+yXY7rhQVlQIrIZC+nXCsIOsxKTdwJzY9UlASmVFUGH6zSMmsuX8/3/dNxZGzn51t
+h+raj/eUP5k5+ebT8baqd6D/cnllsD635emB1PClyJcloLl53ufeU0urR1vfDgHc
+ve79SFld775k+6ozg/RKw9VOf9Hy+WXf4Ktb+r3nk0vX3T9842ru0+Kv+85Ho2ML
+Y9mjecluv/j+Zdexmhf2hhPdQ4XKo0QxfTuQ0G6XrRlZc620ND6+fwFs2fEx0lSD
+NsOd+dNbWx8+Hy/Mx9IXfg2v6uya8J6p9StPtj5c8S37daiofzvOP5mT74OjLxeb
+T3v6lrV1mB+OTA4g5bVUfLD6xMRY8uaRqtpHXutA+a66qkMbl02kNl73Sx6kkz9X
+N+ysmPyRq2u40VFfHfsNJ9VCaQ==
+=q9PK
+-----END PGP MESSAGE-----
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/calebperkins
+
+==================================================================
