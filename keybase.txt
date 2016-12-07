@@ -4,7 +4,7 @@ https://keybase.io/calebperkins
 
 I hereby claim:
 
-  * I am an admin of http://calebperkins.com
+  * I am an admin of http://www.calebperkins.com
   * I am calebperkins (https://keybase.io/calebperkins) on keybase.
   * I have a public key with fingerprint 92F0 F78B E1A1 0474 D7B5  B6AF 96AF D41F 6F9D BC2D
 
@@ -21,17 +21,22 @@ To do so, I am signing this object:
             "uid": "7786f3e6edfc484353f29dfd4f588a19",
             "username": "calebperkins"
         },
+        "revoke": {
+            "sig_ids": [
+                "f4ae78d2d8e93ff58b8ac529722e82f7a3315bbfbaaa5c5106d4b35b9c3dc5420f"
+            ]
+        },
         "service": {
-            "hostname": "calebperkins.com",
+            "hostname": "www.calebperkins.com",
             "protocol": "http:"
         },
         "type": "web_service_binding",
         "version": 1
     },
-    "ctime": 1481063477,
+    "ctime": 1481153675,
     "expire_in": 157680000,
-    "prev": "53904624be0bcafc72bf149a2adbc9d429f6e9c8e1d73df7dbd59d6b33f4a8e1",
-    "seqno": 7,
+    "prev": "817088a11a3fc22eb405c922d95088fe8e148f812f8df4e5f0a827d32d3c94b4",
+    "seqno": 9,
     "tag": "signature"
 }
 
@@ -41,23 +46,25 @@ which yields the signature:
 Version: Keybase OpenPGP v2.0.58
 Comment: https://keybase.io/crypto
 
-yMIgAnicrZJbSBRRGMdXyzKhCK2gG8QYQWQyZ2bOnJktMsi0hyARhIqtZc5tnXZ3
-ZpuZ1cI2ou0iBYEYkWQRYZEXeoqCLlgmdqPMHsqsyJ4kepCiooeKzki99djD4XC+
-7///fRfO4OxpkZKC8SXVi6zVmf6Cx3fPZSNba9fCFgm7dK8UbZGSbOpiKcr8IJ60
-qRSVZCADaBBIiEFlwJiJNA3rGkXEtIiBNcggBAqABAPKDSTLOkFI4RwCYMgyZEwh
-smxJFRK3nQTzMp7tBAJrKlzmyMAMWEDWkOBhiHWLm+JQDXCdmxQThQpjo+uHDtEc
-tnxWabsiJh7xqfb+of/PfWencAgZOleZzignmqGpUOWKSUVpDg3DAmYo9JnnWGkm
-1MRKMZxhXtJ2fClXIYlMk01YuNxwmn+oKombFoyM5wYucVMi2xgEmWhoDvZmQnUz
-w/E/nDi2HSrWKQxNzPNt15GiQChJYIdgoBlA1lUNoQqJ7cnYHovboQIiXYwmy2EZ
-1iSQUDVlTVc0zGRMLE6QgjnQTEuxxC5Nqikm15lJDAYoUilHFFNoUh2rKtcsEZXC
-yXY7rhQVlQIrIZC+nXCsIOsxKTdwJzY9UlASmVFUGH6zSMmsuX8/3/dNxZGzn51t
-h+raj/eUP5k5+ebT8baqd6D/cnllsD635emB1PClyJcloLl53ufeU0urR1vfDgHc
-ve79SFld775k+6ozg/RKw9VOf9Hy+WXf4Ktb+r3nk0vX3T9842ru0+Kv+85Ho2ML
-Y9mjecluv/j+Zdexmhf2hhPdQ4XKo0QxfTuQ0G6XrRlZc620ND6+fwFs2fEx0lSD
-NsOd+dNbWx8+Hy/Mx9IXfg2v6uya8J6p9StPtj5c8S37daiofzvOP5mT74OjLxeb
-T3v6lrV1mB+OTA4g5bVUfLD6xMRY8uaRqtpHXutA+a66qkMbl02kNl73Sx6kkz9X
-N+ysmPyRq2u40VFfHfsNJ9VCaQ==
-=q9PK
+yMJyAnicrZJtiFVFGMfv2qp1a10jQlyKbFrZ2tZtZs7MmTm3EqSE0E1QsBZfuM7r
+3eOu51zPvXt3ZfciUZZkCUEKvYAf9Evg+krEBlKukuIqvbpRCJphBptcLYTSzOZc
+DPzgxz4Mwzz8n9/zn//M0aa7MtmGcw893yLmFT9rGD/8T3+m+4UPtwwBGesNIDcE
+ek19M33alMr53lCDHIAIIsoVVYpriIwJGCHSJ5qpQCguCTWUIoyokkhbziD0FWPY
+WooQh5AagxWEAnQAG0YFkxSTMCo7bIAttIxLgwSChDmepNIXNnBLE2R9G2ipsHaN
+PXEp7XDmpCiZzjB2NXfI1+3dQf8/++6v4xjjvvWMb7RVhBOPehYH2o22lHOBglRY
+Mkkk1hmnVqLPyKJJesOoBKodIDGVuNek2ZbCgjNeArmVwBJhGNdYcxN4bjCXXCiK
+A4ax4dgy4XmISmmlEIIqiqCvifSoDJSnFSUYWrDasd3USqjq8DSpWw4GBgY6b3fR
+qeJ1zmMxicuxivucoqdcLuZSc+UNxXqHkflbrLwMI+2eyzVUTFIK4wjkkFOqcpjC
+EeEIUc9ntAOYwWKYmHyYKijzXXQQpmNMxSE5YjBNBwnPKncrSSBVAcY6oK5uDTcO
+ZTnClmtLDLVQcMy0h7WnAiIJSG+3PopBLnA2RcEhXX6RKPcnBlTHPl/VmGnIZqZN
+nZJ+40z2npn/fe62+6dfm0JPX1v421/t79Cnzxx6dsaCT3LjzaMHJuTOr/PHxg9v
+3TT52EL54sdblv58svv4pwfbal/uXbHp0SPDr43tsxtHLje3rmqs/dLSzS5N23Hi
+5AdXZqzZvG3WvWvYyMjg/NlvLqk1zQ2Xn/+j66sLXdefI1uvNG28qo48uX7Ot1Mr
+g+zdzWyyr3140cr3kmNkz59t4TdDsmnX7sHqd7/K/YVlZ2sXazdX9D/w8IT8qb2a
+PT3KX7n6/o03Wl/S+y4+cd/i7KnhZ+7es624fcHog29Vb776++MTcu2JL/CcA4/M
+PJ9rmfeDPTv5EZ/+8u7m1c1n2l5/+1BXoXJ0+7kfv2/c23q5ff7Y2p5o0bK/n1r8
+L+GUYWM=
+=tVXe
 -----END PGP MESSAGE-----
 
 And finally, I am proving ownership of this host by posting or
